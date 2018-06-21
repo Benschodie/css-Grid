@@ -1,0 +1,23 @@
+{
+  "name": "css-grid",
+  "version": "1.0.0",
+  "description": "### working on CSS Grid based on a Tutorial by Wes Bos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777 --browser 'FirefoxDeveloperEdition'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benschodie/css-Grid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benschodie/css-Grid/issues"
+  },
+  "homepage": "https://github.com/Benschodie/css-Grid#readme",
+  "devDependencies": {
+    "browser-sync": "2.24.4"
+  }
+}
